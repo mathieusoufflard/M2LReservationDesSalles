@@ -1,0 +1,11 @@
+.h1
+{
+    text-align: center;
+}
+
+.col-sm
+{
+    border-color: black;
+    border-width:2px;
+    border-style: solid;
+}
