@@ -17,9 +17,10 @@
 
 <body>
 
-    <div class="container-fluid">
+    <!-- <div class="container-fluid"> -->
+    <div class="row justify-content-center">
 
-        <form name="Connection" action="PHP/Connection.php" method="get">
+        <form name="Connection" action="PHP/Connection.php" method="post">
 
             <div class="col-sm">
 
@@ -31,6 +32,11 @@
                 <div class="row-sm">
                     Mod de passe
                     <input type="password" name="PWD" value=""/>
+                </div>
+
+                <div class="row-sm">
+                <input type="submit" value="Connection" />
+                <input type="reset" value="Annuler" />
                 </div>
 
             </div>
